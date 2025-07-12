@@ -1,0 +1,222 @@
+.navbar {
+  background-color: white !important;
+}
+
+.portfolio{ text-decoration: none;
+ font-weight: 700;}
+
+.profile-pic{ height: 200px;
+    width: 200px;
+    border-radius: 50%;
+ background-color: rgb(6,89,66);}
+
+.rounded-circle:hover{
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.hero-sec{ background-color: rgb(6,89,66) ;}
+
+.ridhima{ color: rgb(255, 25, 25);
+  font-weight: bold;
+}
+
+
+.btn{ background-color: #161a20;
+  padding: 1em, 2em;
+ border:none;
+color:#f0f0f0;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ position: relative;
+border-radius: 1000px; }
+
+.btn::after{content: " ";
+  border-radius: 1000px;
+ position:absolute;
+ inset:0;
+ background-image: linear-gradient(135deg, #00ff00, #004466);
+ z-index:-1;}
+
+.btn:hover{z-index:0;
+ color: white;
+ box-shadow: 40px 0 100px #00ff00, -40px 0 100px #004466;}
+ 
+.intro h1{ color: white;}
+.intro h6{ color: white;}
+
+/* About Me*/
+
+.about{ color:black;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: 700;
+}
+.about::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #00c853; /* green underline */
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+.hey{ font-weight: 500;
+ font-size: medium;}
+
+.project-h, .exp-h{ color: rgb(6,89,66) ;
+  background-color: rgba(0, 255, 0, 0.3); /* Green with 30% opacity */
+  width: 200px;
+  height: 50px;
+  text-align:center;
+  border:1px solid black;
+  margin-right: 10px;
+}
+
+.my-p{ color:black;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: 700;
+}
+
+.project-sections{ background-color: rgb(249,250,252);}
+
+.section-title {
+  font-weight: 700;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #00c853; /* green underline */
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+.project-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  background: #fff;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.project-top {
+  background: linear-gradient(135deg, #00ff88, #00c853);
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-top-a{ background-color: #ff9900;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-top-c{ background-color: #4daFAF;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.project-content {
+  padding: 1.5rem;
+  color: black;
+}
+
+.project-content h5 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.project-tags .badge {
+  margin-right: 5px;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #00c853;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+.contact-sec{ background-color: rgb(6,89,66);}
+
+.name, .email{ height:50px;
+ width:70%;
+ background-color: rgb(6,89,66);
+ color:white;
+ border:2px solid #00c853;}
+
+.msg{height:100px;
+ width:70%;
+ text-align: left;
+ color:white;
+ background-color: rgb(6,89,66);
+ border:2px solid #00c853;}
+
+.name::placeholder,
+.email::placeholder,
+.msg::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.submit{height:50px;
+ width:70%;
+ text-align: center;
+ color:white;
+ font-weight: 700;
+ background-color: rgb(6,89,66);
+ border:2px solid rgb(255, 66, 66);}
+
+.submit:hover{z-index:0;
+ color: white;
+ background-color: #ff582a;}
+
+.my-email, .my-in, .my-github{ text-decoration: none;
+ color: white;
+ font-size: 20px;
+ cursor: pointer;}
+
+/* Container and headings */
+#skills {
+  max-width: 1000px;
+}
+
+#skills h2 {
+  font-weight: 700;
+  position: relative;
+}
+
+#skills h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #00c853;
+  margin: 10px auto 0;
+}
+
+.end{ height: 100px;}
+

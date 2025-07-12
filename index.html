@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tailwind practise </title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet"> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header> 
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="portfolio text-success" href="#"> Portfolio </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="#navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-5 px-3">
+        <li class="nav-item">
+          <a class="nav-link home-b" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link about-b" href="#"> About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link project-b" href="#"> Projects </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> Skills </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link contact-b" href="#"> Contact </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle mode" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Mode
+          </a>
+          <ul class="dropdown-menu mode">
+            <li><a class="dropdown-item d-mode" href="#">Dark Mode </a> </li>
+            <li><a class="dropdown-item l-mode" href="#">Light Mode </a></li>
+          </ul>
+        </li>
+</header>
+<main>
+    <div class="container-fluid hero-sec text-center py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center">
+
+        <!-- Profile Pic -->
+        <div class="profile-pic mb-4 order-1">
+          <img src="profile.jpeg" alt="Profile" class="rounded-circle" style="width: 200px; height: 200px; object-fit:cover;">
+        </div>
+
+        <!-- Intro -->
+        <div class="intro mb-4 order-2">
+          <h1 class="ridhima text-danger"> Hi, I'm Ridhima Gehlot !</h1>
+          <h6 class="aspiring">Aspiring Full Stack Developer</h6>
+        </div>
+
+        <!-- Buttons -->
+        <div class="button order-3">
+          <a href="#" class="btn btn-light mx-2 viewb">View My Work</a>
+          <a href="#" class="btn btn-outline-light mx-2 touchb">Get in Touch</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="border">    </div>
+
+<div class="container-fluid about-d">
+  <div class="container">
+    <div class="row">
+      <h2 class=" about text-center mt-5 mb-5"> About Me </h2>
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center">
+        <div class="pic-1 mb-4 me-auto order-1"> <img src="profile.jpeg" alt="Profile" class="square" style="width: 300px; height: 300px; object-fit: cover;">
+       </div>
+       </div>
+        <div class="col-12 col-lg-6 order-2 order-lg-2 text-center text-lg-start">
+       <div class="mb-4 order-2"> <h3 class="intro-head ms-auto text-danger"> Passionate about Creating </h3>
+        <p class="pb-3 hey">Hey there! I’m an aspiring web developer about to pursue my Bachelor’s in Computer Applications (BCA). I have a strong passion for designing and building beautiful, user-friendly websites. Right now, I’m honing my skills 
+           in HTML, CSS, JavaScript, and Bootstrap — and I’m determined to grow into a full-stack developer in the future.
+            I love learning new technologies, solving real-world problems through code, and bringing creative ideas to life on the
+             web. When I’m not coding, you’ll probably find me exploring new design trends, dreaming up my next big project,
+             or simply enjoying the journey of becoming the best version of myself. Let’s connect and build something amazing
+              together! </p>
+
+        <div class="g-box ms-auto d-flex justify-content-evenly"> <h6 class="project-h  order-1"> 5+ Projects </h6>
+          <h6 class="exp-h order-2"> 3+ years Experince </h6>
+          </div>
+        </div>
+       </div>
+
+      </div>
+    
+  </div>
+</div>
+
+
+<div class=" container-fluid projects-section py-5 mt-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">My Projects</h2>
+    <div class="row g-4">
+      
+      <!-- Card 1 -->
+      <div class="col-md-4 amazond">
+        <div class="project-card">
+          <div class="project-top-a">
+            <i class="fa-solid fa-bag-shopping fa-bounce project-icon fa-3x" style="color: #fff7eb;"></i>
+          </div>
+          <div class="project-content">
+            <h5>Amzon Clone </h5>
+            <p>Amazon clone made with html and css (unresponsive).</p>
+            <div class="project-tags">
+              <span class="badge bg-success"> HTML </span>
+              <span class="badge bg-success"> CSS </span>
+            </div>
+            <a href="https://amazon-clone-neon-theta.vercel.app" class="project-link">View Project →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-top-c">
+              <i class="fa-solid fa-wallet fa-bounce project-icon fa-3x" style="color: #af4d98;"></i>
+          </div>
+          <div class="project-content">
+            <h5> Currency Converter </h5>
+            <p>Currency converter which converts value of currency in all countries. Made with html, css, javascript (responsive) </p>
+            <div class="project-tags">
+              <span class="badge bg-success"> HTML</span>
+              <span class="badge bg-success"> CSS </span>
+              <span class="badge bg-success"> JavaScript </span>
+            </div>
+            <a href="https://currency-converter-olive-delta.vercel.app" class="project-link">View Project →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-top">
+            <i class="fa-solid fa-seedling fa-bounce project-icon fa-3x" style="color: #065942;"></i>
+          </div>
+          <div class="project-content">
+            <h5> For Future</h5>
+            <p>More projects to come in future.</p>
+            <div class="project-tags">
+              <span class="badge bg-success">html</span>
+              <span class="badge bg-success">css</span>
+            </div>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</main>
+
+<footer> 
+
+<div class="container-fluid contact-sec">
+  <div class="container">
+    <div class="row">
+      <h2 class="mt-5 text-light text-center work"> Let's Work Together </h2>
+      <p class="text-light text-center touch"> Have a project idea in mind ? I'd love to hear about it </p>
+
+      <div class="col-md-6 order-1 mt-5 touch">
+        <h5 class="text-danger"> Get in Touch </h5> <br>
+        <a class="my-email mb-3">  <i class="fa-solid fa-envelope fa-2x fa-beat mb-5" style="color: #ffffff;"></i> </a> <br>
+        <a class="my-in"> <i class="fa-brands fa-linkedin fa-2x fa-beat mb-5" style="color: #0a68c2; background:white;"></i> </a> <br>
+        <a class="my-github"> <i class="fa-brands fa-github fa-beat fa-2x" style="color: #000000;"></i></a> <br>
+      </div>
+      <div class="col-md-6 me-auto form order-2 mt-5">
+        <input type="text" class="name mb-3" placeholder="Enter Name"> <br>
+        <input type="text"  class="email mb-3" placeholder="Email"> <br>
+        <input type="text"  class="msg mb-3" placeholder="Send message"> <br>
+        <button class="submit mb-5"> Submit </button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-success pt-5 end text-center text-light">
+  <p> Thanks for checking out. Waiting for your response. Please tell if you find it's bad too</p>
+</div>
+
+</footer>
+
+
+
+
+
+
+<script src="app.js"> </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>  
+</body>
+</html>
